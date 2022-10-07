@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Moh_Eko11/IdeaProjects/JCTestNG/src/test/java/com/juaracoding/tesng/featuretwo/ProsedureExecution.java">
+        <classes>
+            <class name="com.juaracoding.tesng.featuretwo.ProsedureExecution">
+                <methods>
+                    <include name="testOne"/>
+                    <include name="testTwo"/>
+                    <include name="testThree"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <parameter name="angka" value="JuaraCoding"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Moh_Eko11/IdeaProjects/JCTestNG/src/test/java/com/juaracoding/tesng/TestCalculator.java">
+        <classes>
+            <class name="com.juaracoding.tesng.TestCalculator">
+                <methods>
+                    <include name="tesAdd"/>
+                    <include name="tesSubstract"/>
+                    <include name="tesMultiply"/>
+                    <include name="testAssertTrue"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <parameter name="angkaPertama" value="10"></parameter>
+    <parameter name="angkaKedua" value="5"></parameter>
+    <parameter name="text" value="JuaraCoding"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Moh_Eko11/IdeaProjects/JCTestNG/src/test/java/com/juaracoding/tesng/TestCalculatorTwo.java">
+        <classes>
+            <class name="com.juaracoding.tesng.TestCalculatorTwo">
+                <methods>
+                    <include name="tesAdd"/>
+                    <include name="tesSubstract"/>
+                    <include name="tesMultiply"/>
+                    <include name="testAssertTrue"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
